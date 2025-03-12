@@ -18,3 +18,15 @@
                       이런 식으로 한 것이다.
 
 6. recursive: 깃에서의 이 옵션은 하위 서브모듈까지 모두 클론하는 기능을 한다.
+
+7. rm -rf .git  # 기존 Git 삭제
+
+8. git init -> 새 git 저장소 초기화
+
+9. git remote add origin https://github.com/사용자명/저장소명.git  # 원격 저장소(깃 허브에 있는것) 연결
+
+10. git add. -> 모든 파일 추가
+
+11. git commit -m "Initial commit" -> 첫 번째 커밋
+
+12. git push -u origin main  # GitHub에 업로드

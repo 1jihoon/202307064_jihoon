@@ -30,3 +30,27 @@
 11. git commit -m "Initial commit" -> 첫 번째 커밋
 
 12. git push -u origin main  # GitHub에 업로드
+
+
+c++ 프로젝트 깃허브에다 올리기: 
+
+1. git init -> 깃 초기화
+
+2. echo build/ > .gitignore
+   echo bin/ >> .gitignore
+   echo *.o >> .gitignore  -> .gitignore 파일을 만들어서 불필요한 파일을 제외합니다.
+   echo *.exe >> .gitignore
+   echo *.dll >> .gitignore
+   echo *.so >> .gitignore
+
+3. git remote add origin https://github.com/1jihoon/neo_dragon.git
+
+   -> 깃허브에 있는 neo_dragon 저장소에다 연결하는 것이다.
+
+4. git commit -m "Initial commit for neo_dragon"
+ 
+   -> 커밋 메시지는 원하는 내용으로 변경 가능하다.
+
+5. git branch -M main -> 깃 허브는 기본 브랜치 이름을 마스터에서 메인으로 바꿨기에 이리 하는 것이다.
+
+6. git push -u origin master -> 마스터 브랜치에 올려서 끝난다.

@@ -1,0 +1,79 @@
+1. 리액트(사용자 인터페이스를 구축하기 위한 자바스크립트 기반 라이브러리) 설치 완료후 경로를 만들고 내 경우엔 C:\React_Project\management로 함.
+   명령 프롬프트에 cd C:\React_Project\management를 써서 management 폴더 안에 들어가고
+   yarn start를 써서 바로 시작
+
+
+2. Node.js는 자바스크립트 런타임(실행되고 있는 동안의 시간) 환경이고, 
+   브라우저(인터넷의 콘텐츠에 접속하기 위한 응용 프로그램 대표적으로 크롬) 
+   서버(네트워크를 통해 서비스 하는 것)에서도 자바스크립트를 쓸 수 있다.
+
+
+3. 얘들 특징: 
+
+React와 Node.js의 관계
+React와 Node.js는 서로 다른 역할을 하지만, 함께 사용하면 강력한 웹 애플리케이션을 만들 수 있습니다.
+
+React	                               Node.js
+프론트엔드 (UI 담당)	  백엔드 (서버 담당)
+사용자가 보는 화면을 구성	  데이터 요청/응답, 인증, DB 연결 등 처리
+JavaScript 기반의 라이브러리	  JavaScript 실행 환경 (서버에서 동작)
+
+
+React + Node.js를 함께 사용 하는 이유
+
+풀스택 JavaScript 개발 가능
+
+React(프론트엔드)와 Node.js(백엔드)를 함께 사용하면 JavaScript 하나로 전체 애플리케이션을 개발할 수 있음.
+
+빠르고 효율적인 개발
+
+REST API 또는 GraphQL을 통해 React가 Node.js 서버와 통신하여 데이터 요청.
+
+실시간 데이터 처리 가능
+
+WebSocket, Socket.io 같은 라이브러리를 사용하여 실시간 채팅, 알림 기능 등을 구현할 수 있음.
+
+4. 브랜치의 기본적인 것들: https://blog.naver.com/seek316/222344170901
+
+동일한 패키지 관리자(npm) 사용
+
+React와 Node.js 모두 npm을 사용하여 패키지를 관리할 수 있음.
+
+
+5. Vercel이란: 
+✅ 정적 및 동적 웹사이트 배포 플랫폼
+✅ Next.js의 공식 배포 서비스
+✅ 서버리스(Serverless) 환경 지원
+✅ 자동 배포(CI/CD) 및 글로벌 CDN 제공
+
+Vercel은 React/Next.js 등의 프론트엔드뿐만 아니라 백엔드 API도 배포할 수 있도록 서버리스(Serverless) 기능을 지원합니다.
+즉, Node.js 기반 API도 Vercel에서 실행할 수 있습니다.
+
+6. Node.js와 Vercel을 비교
+기능	Node.js	               Vercel
+서버 구축	✅ 가능	              ❌ 서버리스 방식 지원
+API 개발	✅ 가능	              ✅ 서버리스 함수 사용 가능
+배포	❌ 직접 해야 함	  ✅ 자동 배포 (GitHub 연동 가능)
+확장성	❌ 수동 설정 필요	  ✅ 자동 확장 지원
+데이터베이스 연결	✅ 가능	  ✅ 가능 (하지만 DB는 외부 서비스 필요)
+
+
+결론: Node.js는 서버 개발을 위한 기술이고,
+       Vercel은 프론트엔드 및 백엔드를 쉽게 배포할 수 있는 클라우드 플랫폼입니다.
+       즉 Vercel은 Node.js 기반 애플리케이션을 쉽게 배포하고 운영할 수 있도록 돕는 강력한 도구입니다
+
+
+
+7. vite란: 
+✅ 차세대 프론트엔드 빌드 도구(Build Tool)
+✅ 빠른 개발 서버 제공
+✅ ESM(ES Modules) 기반 번들링
+✅ HMR(Hot Module Replacement) 지원
+✅ React, Vue, Svelte 등 다양한 프레임워크 지원
+
+Vite는 웹 애플리케이션의 개발 및 빌드를 빠르게 수행할 수 있도록 설계된 툴입니다.
+특히 React와 같은 프레임워크에서 더욱 강력한 성능을 발휘합니다.
+
+결론: ✅ React는 UI 라이브러리, Vite는 React 프로젝트를 빠르게 개발할 수 있는 빌드 도구
+
+
